@@ -33,6 +33,8 @@ if (!window.localStorage.getItem('lang')) {
 textarea.autofocus = true;
 textarea.value = '';
 
+title.setAttribute('data-label', 'keyboard');
+title.setAttribute('data-testid', 'keyboard');
 title.textContent = 'Virtual keyboard';
 operating.textContent = 'The keyboard was created for Windows OS';
 switchLang.textContent = 'To switch language use combination of \'Shift + Alt\'';
